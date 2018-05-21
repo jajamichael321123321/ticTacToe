@@ -3,7 +3,7 @@
 
 	using namespace std;
 
-void printBoard(int board[4][3], bool player1Turn,string name);
+void printBoard(int board[3][3], bool player1Turn,string name);
 int checkWin(int board[3][3]);
 int sumRow(int row[3]);
 int sumCol(int board[3][3], int column);
